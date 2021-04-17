@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
           <Left/>
-          <Right/>
+          <Right resumeURL="https://github.com/nandkk05"/>
     </div>
   );
 }

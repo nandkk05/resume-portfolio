@@ -7,8 +7,8 @@ function Left(){
             <div className="bg-img"></div>
             <div className="left-inner">
               <div className="info">
-                <h2 className="name">Nand</h2>
-                <div className="subtext">Old School develuper</div>
+                <h2 className="name">Nand Kishor</h2>
+                <div className="subtext">Frontend Developer</div>
                 <div className="jobStatus">Chandigarh Group of Colleges</div>
                 <div className="social-links">
                   <a href="{this.props.twitterURL}" target="_blank"><i className="fa fa-twitter"></i></a>
