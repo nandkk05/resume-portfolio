@@ -5,13 +5,13 @@ export default function Education() {
         <div className="education">
         <h4>Education</h4>
         <div className="content">
-          <div className="university"><a href="http://www.northeastern.edu/" target="_blank" rel="noopener noreferrer">Northeastern University</a></div>
-          <div className="college"><a href="http://www.ccis.northeastern.edu/" target="_blank" rel="noopener noreferrer">College of Computer and Information Science</a></div>
-          <div className="major"><strong>Major:</strong> Information Science</div>
-          <div className="minor"><strong>Minor:</strong> Interaction Design</div>
-          <div className="conc"><strong>Concentration:</strong> Human Computer Interaction</div>
-          <div className="study-abroad"><strong>Study Abroad:</strong> Experience Design of Travel in Budapest, Hungary</div>
-          <div className="grad-date">Expected Graduation: May 2018</div>
+          <div className="university"><a href="https://ptu.ac.in/" target="_blank" rel="noopener noreferrer">Punjab Technical University</a></div>
+          <div className="college"><a href="http://cgc.edu.in/" target="_blank" rel="noopener noreferrer">Chandigarh Group of Colleges</a></div>
+          <div className="grad-date">Expected Graduation: May 2021</div>
+
+          <div className="university-second"><a href="https://ptu.ac.in/" target="_blank" rel="noopener noreferrer">Central Board of Secondary Education</a></div>
+          <div className="college"><a href="http://cgc.edu.in/" target="_blank" rel="noopener noreferrer">Kendriya Vidyalaya</a></div>
+          <div className="grad-date">April 2005 - 2017</div>
         </div>
       </div>
     )

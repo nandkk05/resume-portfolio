@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Test.css';
 
 import Left from "./components/Left"
 import Right from "./components/Right"

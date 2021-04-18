@@ -4,8 +4,10 @@ import Skills from "./Skills";
 import Education from "./Education";
 import Experience from "./Experience";
 import Projects from "./Projects";
+import Talks from "./Talks";
+import Githubcontri from "./Githubcontri";
 
-function Right(props) {
+function Right() {
     return(
         <div className="right">
             <div className="right-inner">
@@ -13,8 +15,10 @@ function Right(props) {
               <Skills/>
               <Education/>
               <Experience/>
+              <Githubcontri/>
               <Projects/>
-              <a className="resume" href="{props.resumeURL}" target="_blank"><div className="resume-link">Grab a PDF of my full resume</div></a>
+              <Talks/>
+              <a className="resume" href="https://www.linkedin.com/nandkk05/" target="_blank" rel="noopener noreferrer"><div className="resume-link">Contact me on linkedin</div></a>
             </div>
           </div>
     )

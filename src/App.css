@@ -63,6 +63,9 @@ a {
   .right-inner {
     padding: 40px;
   }
+  .left{
+    margin-bottom: 100px;
+  }
 }
 
 .left-inner {
@@ -99,6 +102,7 @@ a {
   .introduction{
     margin-top: 300px;
   }
+
 }
 
 .left .info .name {
@@ -174,9 +178,6 @@ a {
     width: 100%;
   }
 
-  .introduction{
-    margin-top: 300px;
-  }
 }
 
 .right .content ul.description {
@@ -226,7 +227,7 @@ a {
 .right .education .college {
   font-weight: 700;
   font-style: italic;
-  margin-bottom: 10px;
+
 }
 
 .right .education .major,
@@ -282,11 +283,14 @@ a {
 @media screen and (max-width: 340px) {
   .right .experience .exp-item .duration {
     float: none;
-    margin-top: 80;
   }
-
   .introduction{
     margin-top: 300px;
+    
+  }
+
+  .left{
+    margin-bottom: 0;
   }
 }
 
@@ -306,6 +310,19 @@ a {
 .right .projects .project-desc {
   font-size: 15px;
   margin: 0 0 10px;
+}
+
+.right .slides{
+  margin-top: 15px;
+  font-weight: 500;
+  background-color: #35de2c;
+  background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
+  background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  
 }
 
 .right a.resume {

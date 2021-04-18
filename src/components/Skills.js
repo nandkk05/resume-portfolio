@@ -8,15 +8,15 @@ export default function Skills() {
                 <div className="content">
                   <div className="skill-category">
                     <strong>Languages: &nbsp;</strong>
-                    <span>JavaScript (ES6), HTML5, CSS3, Java, Python</span>
+                    <span>JavaScript (ES6), HTML5, CSS3, Python</span>
                   </div>
                   <div className="skill-category">
                     <strong>Libraries &amp; Frameworks: &nbsp;</strong>
-                    <span>jQuery, Bootstrap, Foundation, Handlebars, Node, Backbone, Marionette, Cordova, MongoDB, Angular, Express, React</span>
+                    <span>Firebase, Node, MongoDB, Vue, Express, React</span>
                   </div>
                   <div className="skill-category">
                     <strong>Tools: &nbsp;</strong>
-                    <span>Git &amp; Github, Command Line, Grunt, Postman, Adobe Photoshop, InDesign</span>
+                    <span>Git &amp; Github, Command Line, Postman, Adobe XD, Figma, Webflow</span>
                   </div>
                 </div>
               </div>
