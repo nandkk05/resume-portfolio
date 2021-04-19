@@ -36,7 +36,7 @@ a {
 }
 
 .left .bg-img {
-  background: url('../src/nand.jpg') center center no-repeat;
+  background: url('../src/assets/img.jpg') center center no-repeat;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -54,8 +54,7 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #4f94d8;
-  background-image: linear-gradient(to left top, #1b7cd0 , #2ebf91);
+  background-image: linear-gradient(to top, #000000 , #80dfd600);
   opacity: 0.82;
 }
 
@@ -96,12 +95,12 @@ a {
   color: #fff;
   width: 90%;
   margin: 0 auto;
-  margin-top: 50%;
+  margin-top: 60%;
 }
 
 @media screen and (max-width: 1000px) {
   .left .info {
-    margin-top: 300px;
+    margin-top: 400px;
   }
 }
 
