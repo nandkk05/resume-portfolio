@@ -1,4 +1,4 @@
-### Resume Portfolio
+# Resume Portfolio
 
 This portfolio is build with React and you can add more new features into this. I took inspiration from this [FreeCodeCamp](https://www.freecodecamp.org/news/15-web-developer-portfolios-to-inspire-you-137fb1743cae/) article.
 
