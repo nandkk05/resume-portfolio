@@ -6,27 +6,33 @@ html, body {
   box-sizing: border-box;
   font-family: 'Catamaran', sans-serif;
   letter-spacing: 0.3px;
+  display: flex;
 }
 
 a {
   text-decoration: none;
 }
 
-.left,
+
 .right {
-  width: 50%;
+  width: 55%;
   display: inline-block;
   vertical-align: top;
 }
 
 .left {
   color: #efefef;
-  width: 50%;
+  width: 45%;
   height: 100%;
   float: left;
   text-align: center;
   overflow: hidden;
   position: fixed;
+}
+
+.right .college{
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .left .bg-img {
@@ -48,23 +54,20 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #185a9d;
-  background-image: linear-gradient(to left top, #43cea2 , #185a9d);
-  opacity: 0.85;
+  background: #4f94d8;
+  background-image: linear-gradient(to left top, #1b7cd0 , #2ebf91);
+  opacity: 0.82;
 }
 
 .left-inner,
 .right-inner {
-  padding: 50px;
+  padding: 45px;
 }
 
 @media screen and (max-width: 400px) {
   .left-inner,
   .right-inner {
     padding: 40px;
-  }
-  .left{
-    margin-bottom: 100px;
   }
 }
 
@@ -83,6 +86,8 @@ a {
   -webkit-box-flex: 0;
   -webkit-flex: none;
   flex: none;
+  font-size: larger;
+  font-weight: 500;
   position: absolute;
   top: 0;
   left: 0;
@@ -98,11 +103,6 @@ a {
   .left .info {
     margin-top: 300px;
   }
-
-  .introduction{
-    margin-top: 300px;
-  }
-
 }
 
 .left .info .name {
@@ -122,8 +122,9 @@ a {
 
 @media screen and (max-width: 1000px) {
   .left, .right {
-    display: block;
+    display: inline-block;
     width: 100%;
+    margin-top: 150px;
   }
   .left {
     position: static;
@@ -177,7 +178,6 @@ a {
     display: block;
     width: 100%;
   }
-
 }
 
 .right .content ul.description {
@@ -227,7 +227,13 @@ a {
 .right .education .college {
   font-weight: 700;
   font-style: italic;
+  margin-bottom: 10px;
+}
 
+.right .university-second {
+  margin-top: 30px;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .right .education .major,
@@ -253,7 +259,6 @@ a {
   color: #aaa;
   font-size: 13px;
   font-weight: 500;
-  margin-top: 20px;
 }
 
 .right .experience .exp-item {
@@ -284,14 +289,6 @@ a {
   .right .experience .exp-item .duration {
     float: none;
   }
-  .introduction{
-    margin-top: 300px;
-    
-  }
-
-  .left{
-    margin-bottom: 0;
-  }
 }
 
 .right .experience .exp-item .title {
@@ -310,19 +307,6 @@ a {
 .right .projects .project-desc {
   font-size: 15px;
   margin: 0 0 10px;
-}
-
-.right .slides{
-  margin-top: 15px;
-  font-weight: 500;
-  background-color: #35de2c;
-  background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
-  background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  display: inline-block;
-  
 }
 
 .right a.resume {
@@ -349,6 +333,5 @@ a {
   background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
   background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }

@@ -14,6 +14,7 @@ export default function Experience() {
             <ul className="description">
               <li>Developer Student Club powered by Google Developers is a platform to help solve the challenges university graduates were facing securing employment in the tech industry. </li>
               <li>DSC aims to provide students with the resources, opportunities and, experience necessary to be industry-ready, all while still pursuing their degrees. Google Developers supports and recognizes DSCs, but does not own or manage DSCs.</li>
+              <li className="introduction">Organized both online and offline events throughout my working span, you can find  <a style={{fontWeight:500}} className="intro-p job-pls" href="https://drive.google.com/drive/folders/1x9a5LKxC3W6eP51qlgoAgXxPELwr1L5n?usp=sharing" target="_blank" rel="noopener noreferrer">detail of all the events here</a></li>
             </ul>
           </div>
           <div className="exp-item">
@@ -23,9 +24,8 @@ export default function Experience() {
             </div>
             <div className="title">Campus representative</div>
             <ul className="description">
-              <li>Developed and maintained code for in-house and client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery</li>
-              <li>Tested code in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness</li>
-              <li>Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Dept. of Defense, and more</li>
+              <li>Organized events at campus on behalf of Facebook Developer Circle with all the team members</li>
+              <li>Supported students by providing systematic learning resources</li>
             </ul>
           </div>
         </div>
