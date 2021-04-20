@@ -10,7 +10,7 @@ export default function Projects() {
                 
                   <div className="project-item">
                     <a className="project-title" href="http://gadacts.com/" target="_blank" rel="noopener noreferrer">Gadacts.com</a>
-                    <p className="project-desc">I'm recently working on a platform where you can get latest tech related stuff, instant news and tech hacks and this is named as "Gadacts."</p>
+                    <p className="project-desc">I'm recently working on a platform where you can get all latest tech related stuff, instant news and tech hacks and this is named as "Gadacts."</p>
                   </div>
                   <div className="project-item">
                     <a className="project-title" href="https://github.com/nandkk05/kripto" target="_blank" rel="noopener noreferrer">Kripto</a>
