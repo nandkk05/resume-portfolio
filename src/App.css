@@ -6,23 +6,22 @@ html, body {
   box-sizing: border-box;
   font-family: 'Catamaran', sans-serif;
   letter-spacing: 0.3px;
-  display: flex;
 }
 
 a {
   text-decoration: none;
 }
 
-
+.left,
 .right {
-  width: 55%;
+  width: 50%;
   display: inline-block;
   vertical-align: top;
 }
 
 .left {
   color: #efefef;
-  width: 45%;
+  width: 50%;
   height: 100%;
   float: left;
   text-align: center;
@@ -30,7 +29,8 @@ a {
   position: fixed;
 }
 
-.right .college{
+.right .university-second{
+  margin-top: 20px;
   font-weight: 700;
   font-size: 16px;
 }
@@ -54,13 +54,13 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to top, #000000 , #80dfd600);
-  opacity: 0.82;
+  background-image: linear-gradient(to top, #000000 , #185b9d00);
+  opacity: 0.85;
 }
 
 .left-inner,
 .right-inner {
-  padding: 45px;
+  padding: 50px;
 }
 
 @media screen and (max-width: 400px) {
@@ -85,8 +85,6 @@ a {
   -webkit-box-flex: 0;
   -webkit-flex: none;
   flex: none;
-  font-size: larger;
-  font-weight: 500;
   position: absolute;
   top: 0;
   left: 0;
@@ -95,12 +93,16 @@ a {
   color: #fff;
   width: 90%;
   margin: 0 auto;
-  margin-top: 60%;
+  margin-top: 50%;
 }
 
 @media screen and (max-width: 1000px) {
   .left .info {
-    margin-top: 400px;
+    margin-top: 300px;
+  }
+
+  .right {
+    margin-top: 300px;
   }
 }
 
@@ -121,9 +123,8 @@ a {
 
 @media screen and (max-width: 1000px) {
   .left, .right {
-    display: inline-block;
+    display: block;
     width: 100%;
-    margin-top: 200px;
   }
   .left {
     position: static;
@@ -153,7 +154,6 @@ a {
   background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
   background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -175,6 +175,7 @@ a {
   .right h4,
   .right .content {
     display: block;
+    vertical-align: top;
     width: 100%;
   }
 }
@@ -195,7 +196,6 @@ a {
   background-image: -webkit-linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
   background-image: linear-gradient(45deg,#2A54F5 0%,#33E5BB 100%);
   -webkit-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
@@ -226,13 +226,7 @@ a {
 .right .education .college {
   font-weight: 700;
   font-style: italic;
-  margin-bottom: 10px;
-}
-
-.right .university-second {
-  margin-top: 30px;
-  font-weight: 700;
-  font-size: 16px;
+  margin-bottom: 5px;
 }
 
 .right .education .major,
@@ -258,6 +252,7 @@ a {
   color: #aaa;
   font-size: 13px;
   font-weight: 500;
+  margin-top: 15px;
 }
 
 .right .experience .exp-item {
